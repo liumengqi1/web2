@@ -1,0 +1,28 @@
+body{
+	font:12px 'Arial';
+	color: grey;
+	line-height: 2em;
+}
+a{
+	color: #727272;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.meun td a{
+	font:bold 14px;
+	color:#b9f605;
+}
+.meun td a{
+	color:white;
+}
+.meun td a:hover{
+	color:#b9f605;
+	text-decoration:none;
+
+}
+#last{
+	color:#fdb306;
+}

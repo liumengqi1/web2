@@ -1,0 +1,20 @@
+.imgage a img{
+	width: 200px;
+	height: 160px;
+	padding: 10px;
+	opacity: 0.5;
+}
+.imgage{
+	float: left;
+	border:solid 1px;
+	border-color: #bebebe;
+	margin-right: 5px;
+}
+.desc{
+	padding-left: 70px;
+
+}
+a:hover img{
+	opacity: 1;
+	border:1px solid #333333;
+}

@@ -168,10 +168,10 @@ h3{
 	color:#8b0000;
 }
 .top{
-	width:250px;
+	width:245px;
 	height: 200px;
-	margin-top: 20px;
-	margin-left: 3px;
+	margin-top: 46px;
+	margin-left: 13px;
 	float: left;
 	border:1px dotted #e9967a;
 }
@@ -209,16 +209,23 @@ h3{
 	background-color:#d2691e;
 }
 .bottom{
-	width:260px;
-	margin-top: 255px;
+	width:245px;
+	margin-top: 281px;
+	margin-left: 13px;
 	height: 250px;
 	border:1px dotted #e9967a;
-	
-
+}
+.bottom table{
+	margin-left: 3px;
+}
+.table2{
+	margin-left: 11px;
+	width:231px;
+	/*border:1px solid red;*/
 }
 .table2 tr td{
 	font:15px '宋体';
-	width:250px;
+	width:245px;
 	color: #daa520;
 }
 .table2 tr td input,textarea{

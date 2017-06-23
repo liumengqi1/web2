@@ -1,7 +1,7 @@
 *{
 	padding:0px;
 	margin:0px;
-
+	/*border:0px;*/
 
 }
 body{
@@ -42,11 +42,9 @@ body{
 }
 .nav ul li {
 	float: left;
-	
 	list-style-type: none;
 	margin-left: 15px;
 	color:white;
-	
 }
 .nav ul li a{
 	text-decoration: none;
@@ -203,7 +201,6 @@ h3{
 }
 .tr1{
 	font: 15px '宋体';
-	width:220px;
 	height:25px;
 	color:white;
 	text-align: center;
@@ -222,17 +219,25 @@ h3{
 .table2{
 	margin-left: 11px;
 	width:231px;
-	/*border:1px solid red;*/
 }
 .table2 tr td{
 	font:15px '宋体';
-	width:245px;
 	color: #daa520;
 }
 .table2 tr td input,textarea{
 	background-color: #faebd7;
 }
+textarea{
+	width: 220px;
+	height: 80px;
+}
+.pass{
+	width: 53px;
+	float:left;
+}
+
 .sub {
+	display: block;
 	margin-left: 100px;
 	font:15px '宋体';
 	color: #daa520;
@@ -271,4 +276,9 @@ h3{
 	margin-left: 480px;
 	margin-top: 7px;
 	color:#8b0000;
+}
+
+@media screen and(-ms-high-contrast:active),(-ms-high-contrast:none){
+	input[type='password']{
+	width: 147px;
 }

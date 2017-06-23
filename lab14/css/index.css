@@ -1,8 +1,6 @@
 *{
 	padding:0px;
 	margin:0px;
-
-
 }
 body{
 	background-color: #f5deb3;
@@ -243,7 +241,6 @@ form{
 	margin-top: 20px;
 	margin-left: 30px;
 	width:205px;
-	/*border:solid 1px red;*/
 	font:15px '宋体';
 
 }
@@ -251,11 +248,15 @@ form input{
 	margin-top: 20px;
 	background-color: #ffe4c4;
 }
-
+form input[type="text"]{
+	width: 161px!important;
+}
 form input[type="submit"]{
 	margin-left: 50px;
 	font:15px '宋体';
-
+}
+form input[type='password']{
+	width: 162px;
 }
 
 
